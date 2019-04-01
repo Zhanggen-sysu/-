@@ -29,7 +29,7 @@
 
   《UML和模式应用》P7 图1-5 
 
-  ![1554135581417]((https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/blob/master/4.jpg))
+  ![1554135581417](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/blob/master/4.jpg)
 
   ![1554135597160](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/blob/master/1.jpg)
 
