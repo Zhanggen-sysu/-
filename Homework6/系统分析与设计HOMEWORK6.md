@@ -30,29 +30,29 @@
 
    - 参与者：参与者不是特指人，是指系统以外的，在使用系统或与系统交互中所扮演的角色。因此参与者可以是人，可以是事物，也可以是时间或其他系统等等。还有一点要注意的是，参与者不是指人或事物本身，而是表示人或事物当时所扮演的角色。
      - 参与者在画图中用简笔人物画来表示，人物下面附上参与者的名称。
-     - ![1555559788440](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555559788440.png)
+     - ![1555559788440](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/1.png)
    - 用例：用例是对包括变量在内的一组动作序列的描述，系统执行这些动作，并产生传递特定参与者的价值的可观察结果。用例是参与者想要系统做的事情。
      - 用例在画图中用椭圆来表示，椭圆里附上用例的名称。
-     - ![1555559810712](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555559810712.png)
+     - ![1555559810712](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/2.png)
    - 系统边界：系统边界是用来表示正在建模系统的边界。边界内表示系统的组成部分，边界外表示系统外部。
      - 系统边界在画图中用方框来表示，同时附上系统的名称，参与者画在边界的外面，用例画在边界里面。
-     - ![1555559966597](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555559966597.png)
+     - ![1555559966597](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/3.png)
    - 箭头：箭头用来表示参与者和系统通过相互发送信号或消息进行交互的关联关系。箭头尾部用来表示启动交互的一方，箭头头部用来表示被启动的一方，其中用例总是要由参与者来启动。
      - 关联：表示参与者与用例之间的通信，任何一方都可发送或接受消息。
        - 【箭头指向】：无箭头，将参与者与用例相连接，指向消息接收方。
-       - ![1555560543965](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555560543965.png)
+       - ![1555560543965](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/4.png)
      - 泛化：就是通常理解的继承关系，子用例和父用例相似，但表现出更特别的行为；子用例将继承父用例的所有结构、行为和关系。子用例可以使用父用例的一段行为，也可以重载它。父用例通常是抽象的。在实际应用中很少使用泛化关系，子用例中的特殊行为都可以作为父用例中的备选流存在。
        - 【箭头指向】：指向父用例
-       - ![1555560601617](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555560601617.png)
+       - ![1555560601617](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/5.png)
      - 包含：包含关系用来把一个较复杂用例所表示的功能分解成较小的步骤。包含关系对典型的应用就是复用，也就是定义中说的情景。但是有时当某用例的事件流过于复杂时，为了简化用例的描述，我们也可以把某一段事件流抽象成为一个被包含的用例；相反，用例划分太细时，也可以抽象出一个基用例，来包含这些细颗粒的用例。这种情况类似于在过程设计语言中，将程序的某一段算法封装成一个子过程，然后再从主程序中调用这一子过程。
        - 【箭头指向】：指向分解出来的功能用例
-       - ![1555560639895](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555560639895.png)
+       - ![1555560639895](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/6.png)
      - 扩展：扩展关系是指用例功能的延伸，相当于为基础用例提供一个附加功能。将基用例中一段相对独立并且可选的动作，用扩展（Extension）用例加以封装，再让它从基用例中声明的扩展点（Extension Point）上进行扩展，从而使基用例行为更简练和目标更集中。扩展用例为基用例添加新的行为。扩展用例可以访问基用例的属性，因此它能根据基用例中扩展点的当前状态来判断是否执行自己。但是扩展用例对基用例不可见。对于一个扩展用例，可以在基用例上有几个扩展点。
        - 【箭头指向】：指向基础用例
-       - ![1555560714036](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555560714036.png)
+       - ![1555560714036](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/7.png)
      - 依赖：以上4种关系，是UML定义的标准关系。但VS2010的用例模型图中，添加了依赖关系，用带箭头的虚线表示，表示源用例依赖于目标用例。
        - 【箭头指向】：指向被依赖项
-       - ![1555560756090](C:\Users\ZG\AppData\Roaming\Typora\typora-user-images\1555560756090.png)
+       - ![1555560756090](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework6/8.png)
 
 7. 用例图的画法与步骤
 
