@@ -1,8 +1,6 @@
 # Final Report
 
-
-
-###个人简短小结
+### 个人简短小结
 
 
 
@@ -30,9 +28,7 @@
 | Size Measurement | 计算工作量                            | 1        |
 | Technology Blog  | 技术博客                              | 3        |
 
-
-
-###主要工作清单
+### 主要工作清单
 
 
 
@@ -42,17 +38,13 @@
 
 ![2](https://raw.githubusercontent.com/Zhanggen-sysu/Software-Analysis-Design-Homework/master/FinalReport/2.jpg)
 
-
-
-###在项目中的贡献
+### 在项目中的贡献
 
 
 
 ![1](https://raw.githubusercontent.com/Zhanggen-sysu/Software-Analysis-Design-Homework/master/FinalReport/1.png)
 
-
-
-###个人博客清单
+### 个人博客清单
 
 
 
