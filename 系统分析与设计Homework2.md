@@ -23,7 +23,9 @@
 
 ## 二、项目管理实践
 
-- 看板练习（因为团队成员课程进度不同，后续补上）
+- 看板练习
+
+  ![5](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/blob/master/5.jpg)
 
 - UML绘图工具练习
 
