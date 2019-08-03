@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>423</x>
+      <y>450</y>
+      <w>108</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Reservation Item
+-
+type
+date, time
+check in date
+number of nights
+adult number
+children number
+children age
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>171</y>
+      <w>90</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Hotel
+-
+name
+stars
+address
+loc-code
+brief-intro
+/favorite
+/lowest price
+/rating
+/max-discount
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>450</y>
+      <w>90</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Room
+-
+type
+date
+/isAvailable
+reserved
+totals
+/price
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>423</x>
+      <y>207</y>
+      <w>108</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Reservation
+-
+date, time
+check in date
+number of nights
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>315</y>
+      <w>81</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+include v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>306</x>
+      <y>171</y>
+      <w>189</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+&lt; belong to</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0;190.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>504</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>27</x>
+      <y>450</y>
+      <w>117</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Room-Description
+-
+type
+totals
+list-price
+description
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>261</x>
+      <y>333</y>
+      <w>63</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+own v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>135</x>
+      <y>486</y>
+      <w>117</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+describe &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>27</x>
+      <y>225</y>
+      <w>117</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Room-Catalog
+-
+type
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>72</x>
+      <y>270</y>
+      <w>81</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+include v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>603</x>
+      <y>207</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Payment
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>603</x>
+      <y>90</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Traveler
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

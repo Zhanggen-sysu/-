@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>540</y>
+      <w>120</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Reservation Item
+-
+type
+date, time
+check in date
+number of nights
+adult number
+children number
+children age
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>310</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Reservation
+-
+date, time
+check in date
+number of nights
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>390</y>
+      <w>90</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+include v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>310</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>payment
+-
+total cost
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>340</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+include &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>460</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>credit card
+-
+type
+/isAcceptable
+card number
+card security code
+expiry date
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>660</y>
+      <w>130</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>card holder
+-
+title
+first name
+last name
+address
+city
+country/state
+country
+postcode
+daytime telephone
+evening telephone
+email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>560</y>
+      <w>100</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+belong to v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>370</y>
+      <w>70</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+use &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>
