@@ -29,3 +29,4 @@
     - 用绿色背景表述第二个业务场景添加或修改的用例，以及支持 Actor
     - 用黄色背景表述第三个业务场景添加或修改的用例，以及支持 Actor
 
+    ![hw7_6](https://github.com/Zhanggen-sysu/Software-Analysis-Design-Homework/raw/master/Homework7/hw7_6.png)
